@@ -1,0 +1,47 @@
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload{
+    width: 50%;
+}
+.schoolProfile{
+
+	height:100%;
+	width:100%;
+}
+.userCard{
+	margin-top: 20px;
+}
+.bg-img{
+	background-color:lightgray;
+	
+}
+.details{
+	
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.schoolProfile{
+	margin-left: 1%;
+}
+.editBtn{
+	position: relative;
+	float: right;
+}
