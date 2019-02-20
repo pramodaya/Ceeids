@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/Oxo_Company_School_Management_System_0/';
+$config['base_url'] = 'http://localhost/Ceeids/';
 
 /*
 |--------------------------------------------------------------------------

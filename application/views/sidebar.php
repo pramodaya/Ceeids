@@ -45,7 +45,7 @@
                 <span>Assign Schools to Users</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="<?php echo base_url();?>AssignSchools/index/">
+            <a class="nav-link" href="<?php echo base_url();?>schoolContacts/index/">
                 <i class="fas fa-fw fa-university"></i>
                 <span>Manage Schools</span>
             </a>

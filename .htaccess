@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /Oxo_Company_School_Management_System_0/
+RewriteBase /Ceeids/
 
 RewriteCond %{REQUEST_URI} ^system.*
 RewriteRule ^(.*)$ /index.php?/$1 [L]
