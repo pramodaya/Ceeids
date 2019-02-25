@@ -474,6 +474,11 @@ class SchoolContacts extends CI_Controller {
         }
     }
 
+    public function assignSchoolMiddleware(){
+    	
+    	$this->load->view();
+    }
+
 
 	
 

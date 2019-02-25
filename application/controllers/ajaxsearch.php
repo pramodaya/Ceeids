@@ -77,8 +77,8 @@ class Ajaxsearch extends CI_Controller {
 	   <td>'.$row->district.'</td>
 	   <td>'.$row->alYear.'</td>
 	   <td>'.$row->alStream.'</td>
-	   <td><a href="http://localhost/Oxo_Company_School_Management_System/posts/create?cid='.$row->cid.'" class="btn btn-success">Add Log</a></td>
-	   <td><a href="http://localhost/Oxo_Company_School_Management_System/schoolContacts/editSingleSchoolUser/?cid='.$row->cid.'&sid='.$row->sid.'" class="btn btn-primary">EDIT</a></td>
+	   <td><a href="http://localhost/Ceeids/posts/create?cid='.$row->cid.'" class="btn btn-success">Add Log</a></td>
+	   <td><a href="http://localhost/Ceeids/schoolContacts/editSingleSchoolUser/?cid='.$row->cid.'&sid='.$row->sid.'" class="btn btn-primary">EDIT</a></td>
 
       </tr>
     ';

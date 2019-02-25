@@ -48,7 +48,7 @@ class Ajaxsearchlog extends CI_Controller {
        <td>'.$row->date.'</td>
        <td>'.$row->time.'</td>
        <td>'.$row->status.'</td>
-       <td><a href="http://localhost/Oxo_Company_School_Management_System/posts/view/'.$row->slug.'?lid='.$row->lid.'" class="btn btn-primary">More</a></td>
+       <td><a href="http://localhost/Ceeids/posts/view/'.$row->slug.'?lid='.$row->lid.'" class="btn btn-primary">More</a></td>
       </tr>
     ';
    }

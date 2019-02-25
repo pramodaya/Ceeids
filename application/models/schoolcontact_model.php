@@ -361,6 +361,13 @@ class Schoolcontact_model extends CI_Model {
 
     }
 
+    public function getAllSchools(){
+		$this->db->select("*"); 
+ 	    $this->db->from('schooldetails');
+  		$query = $this->db->get();
+ 	    return $query->result();
+	}
+
 
 
 }
